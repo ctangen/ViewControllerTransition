@@ -7,14 +7,25 @@
 //
 
 #import "CSTAppDelegate.h"
+#import "MyCustomViewController.h"
 
 @implementation CSTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Create my custom view controller
+    MyCustomViewController *viewController = [[MyCustomViewController alloc] init];
+    viewController.currentPage = 1;
+    
+    // Sit my view controller in a generic navigation controller
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    // Display window
+    [self.window setRootViewController:navigationController];
     [self.window makeKeyAndVisible];
     return YES;
 }

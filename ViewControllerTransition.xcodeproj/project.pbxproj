@@ -16,6 +16,8 @@
 		CDF3EE7017554B9700CDC40E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3EE6F17554B9700CDC40E /* Default.png */; };
 		CDF3EE7217554B9700CDC40E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3EE7117554B9700CDC40E /* Default@2x.png */; };
 		CDF3EE7417554B9700CDC40E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3EE7317554B9700CDC40E /* Default-568h@2x.png */; };
+		CDF3EE7D17554BC800CDC40E /* MyCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3EE7B17554BC800CDC40E /* MyCustomViewController.m */; };
+		CDF3EE7E17554BC800CDC40E /* MyCustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF3EE7C17554BC800CDC40E /* MyCustomViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		CDF3EE6F17554B9700CDC40E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CDF3EE7117554B9700CDC40E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CDF3EE7317554B9700CDC40E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDF3EE7A17554BC800CDC40E /* MyCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomViewController.h; sourceTree = "<group>"; };
+		CDF3EE7B17554BC800CDC40E /* MyCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomViewController.m; sourceTree = "<group>"; };
+		CDF3EE7C17554BC800CDC40E /* MyCustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				CDF3EE6C17554B9700CDC40E /* CSTAppDelegate.h */,
 				CDF3EE6D17554B9700CDC40E /* CSTAppDelegate.m */,
+				CDF3EE7A17554BC800CDC40E /* MyCustomViewController.h */,
+				CDF3EE7B17554BC800CDC40E /* MyCustomViewController.m */,
+				CDF3EE7C17554BC800CDC40E /* MyCustomViewController.xib */,
 				CDF3EE6417554B9700CDC40E /* Supporting Files */,
 			);
 			path = ViewControllerTransition;
@@ -155,6 +163,7 @@
 				CDF3EE7017554B9700CDC40E /* Default.png in Resources */,
 				CDF3EE7217554B9700CDC40E /* Default@2x.png in Resources */,
 				CDF3EE7417554B9700CDC40E /* Default-568h@2x.png in Resources */,
+				CDF3EE7E17554BC800CDC40E /* MyCustomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				CDF3EE6A17554B9700CDC40E /* main.m in Sources */,
 				CDF3EE6E17554B9700CDC40E /* CSTAppDelegate.m in Sources */,
+				CDF3EE7D17554BC800CDC40E /* MyCustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
